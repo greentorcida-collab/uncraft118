@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "uncraft",
+  "version": "${version}",
+  "name": "Uncraft",
+  "description": "Membalik crafting blok kembali ke bahan asalnya.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.uncraft.Uncraft"],
+    "client": ["com.uncraft.UncraftClient"]
+  },
+  "accessWidener": "uncraft.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.18.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
